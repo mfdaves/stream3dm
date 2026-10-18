@@ -23,7 +23,7 @@ jobs:
           targets: wasm32-unknown-unknown
       - uses: Swatinem/rust-cache@v2
       - name: Sample files (cached by manifest)
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             samples/opennurbs
