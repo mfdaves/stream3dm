@@ -1,0 +1,415 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 10982355,
+    "archive_version": 4,
+    "application": "Rhinoceros 4.0",
+    "application_details": "Worldwide Commercial, build 2007-10-17",
+    "unit_system": "millimeters",
+    "metres_per_unit": 0.001,
+    "absolute_tolerance_m": 1e-6
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "Wheel",
+        "path": "Wheel",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 1,
+        "mesh_area_m2": 0.81565,
+        "bbox": {
+          "min": [
+            -0.235309,
+            -0.116571,
+            -0.23531
+          ],
+          "max": [
+            0.23532,
+            0.096125,
+            0.23531
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "name": "Tire",
+        "path": "Tire",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": "",
+        "objects": 12,
+        "mesh_area_m2": 0.800387,
+        "bbox": {
+          "min": [
+            -0.314849,
+            -0.138079,
+            -0.314814
+          ],
+          "max": [
+            0.314849,
+            0.121337,
+            0.314871
+          ]
+        }
+      }
+    ],
+    "groups": [],
+    "object_names": [],
+    "user_strings": []
+  },
+  "blocks": [],
+  "materials": [
+    {
+      "index": 0,
+      "name": "",
+      "color": "#ffffff",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 0,
+      "mesh_area_m2": 0.0
+    },
+    {
+      "index": 1,
+      "name": "",
+      "color": "#ffffff",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 0,
+      "mesh_area_m2": 0.0
+    },
+    {
+      "index": 2,
+      "name": "",
+      "color": "#2e2e2e",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 1,
+      "objects": 12,
+      "mesh_area_m2": 0.800387
+    }
+  ],
+  "views": [
+    {
+      "name": "Perspective",
+      "kind": "viewport",
+      "projection": "perspective",
+      "camera": [
+        0.729494,
+        -1.386188,
+        0.288953
+      ],
+      "direction": [
+        -0.460083,
+        0.868972,
+        -0.182239
+      ],
+      "up": [
+        -0.085273,
+        0.161057,
+        0.983254
+      ],
+      "target": [
+        0.0,
+        -0.008371,
+        0.0
+      ],
+      "fov_deg": {
+        "horizontal": 40.084,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.455310048,
+        0.455310048,
+        -0.299546084,
+        0.299546084,
+        1.248108685,
+        1.929530606
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Top",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        -0.008371,
+        0.396664
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        -0.008371,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.409899031,
+        0.409899031,
+        -0.249178742,
+        0.249178742,
+        0.050305613,
+        0.743022517
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Front",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        -0.171773,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        -0.008371,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.409899031,
+        0.409899031,
+        -0.346358452,
+        0.346358452,
+        0.008198876,
+        0.318605232
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Right",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.396664,
+        -0.008371,
+        0.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        -0.008371,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.378751688,
+        0.378751688,
+        -0.346358452,
+        0.346358452,
+        0.050305613,
+        0.743022517
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Render 1",
+      "kind": "named",
+      "projection": "perspective",
+      "camera": [
+        0.606451,
+        -1.257259,
+        0.236386
+      ],
+      "direction": [
+        -0.422874,
+        0.886603,
+        -0.187384
+      ],
+      "up": [
+        -0.080669,
+        0.169131,
+        0.982287
+      ],
+      "target": [
+        0.012755,
+        -0.012508,
+        -0.026693
+      ],
+      "fov_deg": {
+        "horizontal": 32.147,
+        "vertical": 22.58
+      },
+      "lens_35mm": 60.108,
+      "frustum": [
+        -0.000733443,
+        0.000733443,
+        -0.000508184,
+        0.000508184,
+        0.002545489,
+        5.095827466
+      ],
+      "clipping_planes": []
+    }
+  ],
+  "render": {
+    "sun": {
+      "enabled": false,
+      "manual": false,
+      "azimuth": 263.329,
+      "altitude": 61.765,
+      "date": "2000-01-01",
+      "hours": 12.0,
+      "utc_offset": -5.0,
+      "daylight_saving_minutes": null,
+      "latitude": -22.7216,
+      "longitude": -43.4552,
+      "north": null,
+      "intensity": 1.0,
+      "skylight": true
+    }
+  },
+  "inventory": {
+    "objects": 13,
+    "breps": 6,
+    "breps_with_render_mesh": 2,
+    "breps_tessellated": 4,
+    "meshes": 0,
+    "subds": 0,
+    "curves": 6,
+    "points": 1,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 280977,
+    "mesh_triangles": 534386
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        -0.314849,
+        -0.138079,
+        -0.314814
+      ],
+      "max": [
+        0.314849,
+        0.121337,
+        0.314871
+      ]
+    },
+    "size": [
+      0.629697,
+      0.259416,
+      0.629685
+    ],
+    "plan_aspect": 2.4274,
+    "height_to_plan": 1.0,
+    "storeys": null,
+    "levels": [
+      {
+        "z": -0.2771,
+        "area_m2": 0.028313
+      },
+      {
+        "z": 0.1752,
+        "area_m2": 0.013138
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 0.1849,
+    "horizontal_area_share": 0.0507,
+    "vertical_area_share": 0.2293,
+    "planar_face_share": 0.0359,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": null,
+        "layer": "Tire",
+        "material": "",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.800387,
+        "size": [
+          0.629697,
+          0.259416,
+          0.629685
+        ],
+        "base_z": -0.3148,
+        "horizontal_share": 0.0557,
+        "vertical_share": 0.2158,
+        "sloped_share": 0.7285
+      },
+      {
+        "name": null,
+        "layer": "Wheel",
+        "material": null,
+        "block": null,
+        "count": 1,
+        "area_m2": 0.81565,
+        "size": [
+          0.470628,
+          0.212697,
+          0.470619
+        ],
+        "base_z": -0.2353,
+        "horizontal_share": 0.0457,
+        "vertical_share": 0.2426,
+        "sloped_share": 0.7117
+      }
+    ]
+  },
+  "diagnostics": []
+}

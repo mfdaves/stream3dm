@@ -1,0 +1,405 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 6800464,
+    "archive_version": 80,
+    "application": "Rhinoceros 8",
+    "application_details": "Commercial, build 2023-08-21",
+    "unit_system": "millimeters",
+    "metres_per_unit": 0.001,
+    "absolute_tolerance_m": 1e-6
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "Default",
+        "path": "Default",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 2,
+        "mesh_area_m2": 0.005809,
+        "bbox": {
+          "min": [
+            -0.026721,
+            -0.024532,
+            -0.015153
+          ],
+          "max": [
+            0.035285,
+            0.012262,
+            0.015153
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "name": "Layer 01",
+        "path": "Layer 01",
+        "color": "#c80000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 2,
+        "name": "Layer 02",
+        "path": "Layer 02",
+        "color": "#7d26cd",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 3,
+        "name": "Layer 03",
+        "path": "Layer 03",
+        "color": "#0000ff",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 4,
+        "name": "Layer 04",
+        "path": "Layer 04",
+        "color": "#007f00",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 5,
+        "name": "Layer 05",
+        "path": "Layer 05",
+        "color": "#ffffff",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      }
+    ],
+    "groups": [],
+    "object_names": [],
+    "user_strings": []
+  },
+  "blocks": [],
+  "materials": [
+    {
+      "index": 0,
+      "name": "Metal",
+      "color": "#ff4242",
+      "physically_based": true,
+      "metallic": 1.0,
+      "roughness": 0.15,
+      "opacity": 1.0,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.002884
+    },
+    {
+      "index": 1,
+      "name": "Physically Based",
+      "color": "#6e63b5",
+      "physically_based": true,
+      "metallic": 0.0,
+      "roughness": 0.2,
+      "opacity": 1.0,
+      "textures": [
+        "bump_texture.png"
+      ],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.002925
+    }
+  ],
+  "views": [
+    {
+      "name": "Perspective",
+      "kind": "viewport",
+      "projection": "perspective",
+      "camera": [
+        0.049537,
+        -0.207382,
+        0.092471
+      ],
+      "direction": [
+        -0.250017,
+        0.884762,
+        -0.393303
+      ],
+      "up": [
+        -0.106952,
+        0.378482,
+        0.919409
+      ],
+      "target": [
+        -0.008808,
+        -0.000908,
+        0.000687
+      ],
+      "fov_deg": {
+        "horizontal": 28.058,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.025454224,
+        0.025454224,
+        -0.024448806,
+        0.024448806,
+        0.101870026,
+        0.388896964
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Top",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        0.0,
+        0.110003
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.0275,
+        0.0275,
+        -0.0275,
+        0.0275,
+        1e-6,
+        0.220002673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Front",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        -0.110003,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.027633307,
+        0.027633307,
+        -0.027279412,
+        0.027279412,
+        1e-6,
+        0.220002673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Right",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.110003,
+        0.0,
+        0.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.027279412,
+        0.027279412,
+        -0.027279412,
+        0.027279412,
+        1e-6,
+        0.220002673
+      ],
+      "clipping_planes": []
+    }
+  ],
+  "render": {
+    "sun": {
+      "enabled": false,
+      "manual": false,
+      "azimuth": 177.843,
+      "altitude": 66.955,
+      "date": "2000-01-01",
+      "hours": 12.0,
+      "utc_offset": 0.0,
+      "daylight_saving_minutes": null,
+      "latitude": null,
+      "longitude": null,
+      "north": null,
+      "intensity": 1.0,
+      "skylight": true
+    },
+    "ground_plane": {
+      "enabled": true,
+      "altitude_m": 0.0,
+      "auto_altitude": true,
+      "shadow_only": true,
+      "show_underside": false
+    }
+  },
+  "inventory": {
+    "objects": 2,
+    "breps": 2,
+    "breps_with_render_mesh": 2,
+    "breps_tessellated": 0,
+    "meshes": 0,
+    "subds": 0,
+    "curves": 0,
+    "points": 0,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 8409,
+    "mesh_triangles": 16140
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        -0.026721,
+        -0.024532,
+        -0.015153
+      ],
+      "max": [
+        0.035285,
+        0.012262,
+        0.015153
+      ]
+    },
+    "size": [
+      0.062007,
+      0.036794,
+      0.030307
+    ],
+    "plan_aspect": 1.6852,
+    "height_to_plan": 0.4888,
+    "storeys": null,
+    "levels": [
+      {
+        "z": 0.0,
+        "area_m2": 0.000747
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 0.5342,
+    "horizontal_area_share": 0.2572,
+    "vertical_area_share": 0.3527,
+    "planar_face_share": 0.6667,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "Metal",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.002884,
+        "size": [
+          0.030305,
+          0.030305,
+          0.030307
+        ],
+        "base_z": -0.0152,
+        "horizontal_share": 0.0192,
+        "vertical_share": 0.1951,
+        "sloped_share": 0.7857
+      },
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "Physically Based",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.002925,
+        "size": [
+          0.022462,
+          0.032024,
+          0.01364
+        ],
+        "base_z": 0.0,
+        "horizontal_share": 0.4918,
+        "vertical_share": 0.5082,
+        "sloped_share": 0.0
+      }
+    ]
+  },
+  "diagnostics": []
+}

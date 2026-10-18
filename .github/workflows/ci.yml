@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      # A fixed version, so that new lints do not fail the build unannounced.
+      - uses: dtolnay/rust-toolchain@1.89.0
+        with:
+          components: rustfmt, clippy
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - name: Sample files (cached by manifest)
+        uses: actions/cache@v4
+        with:
+          path: |
+            samples/opennurbs
+            samples/rhino3dm
+            samples/rhino-developer-samples
+            samples/three.js
+          key: samples-${{ hashFiles('samples/manifest.tsv') }}
+      - run: samples/fetch.sh
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo clippy -p stream3dm --all-targets --no-default-features -- -D warnings
+      - run: cargo test --workspace --release
+      - name: Tests without cadmpeg
+        run: cargo test -p stream3dm --release --no-default-features
+      - name: Documentation
+        run: |
+          cargo doc -p stream3dm --no-deps
+          cargo doc -p stream3dm --no-deps --no-default-features
+        env:
+          RUSTDOCFLAGS: -D warnings
+      - name: WebAssembly module and its size
+        run: |
+          cargo build --release -p stream3dm-wasm --target wasm32-unknown-unknown
+          wasm=target/wasm32-unknown-unknown/release/stream3dm_wasm.wasm
+          echo "stream3dm_wasm.wasm: $(stat -c %s $wasm) bytes, $(gzip -9c $wasm | wc -c) gzipped" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: JavaScript tests
+        run: node --test js/test/stream3dm.test.mjs
+
+  msrv:
+    name: Rust 1.88 (rust-version)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: dtolnay/rust-toolchain@1.88.0
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo check --workspace --all-targets

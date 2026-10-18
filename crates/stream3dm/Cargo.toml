@@ -1,0 +1,27 @@
+[package]
+name = "stream3dm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Reads Rhino .3dm and IFC files: a structured report, meshes and a fingerprint, natively and in WebAssembly"
+
+[features]
+default = ["cadmpeg"]
+# cadmpeg decodes what our own reader does not (rare record versions) and is the reference the
+# tests compare our reader with.
+cadmpeg = ["dep:cadmpeg-codec-rhino", "dep:cadmpeg-core", "dep:cadmpeg-ir"]
+
+[dependencies]
+cadmpeg-codec-rhino = { version = "0.6.1", optional = true }
+cadmpeg-core = { version = "0.6.1", optional = true }
+cadmpeg-ir = { version = "0.6.1", optional = true }
+crc32fast = "1"
+earcut = "0.4"
+spade = "2.15"
+miniz_oxide = "0.9"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.11"

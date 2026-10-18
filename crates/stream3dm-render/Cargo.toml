@@ -1,0 +1,13 @@
+[package]
+name = "stream3dm-render"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "CPU rasterizer for clay, depth, normals, material and line passes of a .3dm view"
+
+[dependencies]
+stream3dm = { path = "../stream3dm" }
+png = "0.18.1"

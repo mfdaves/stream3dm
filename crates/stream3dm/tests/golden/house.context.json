@@ -1,0 +1,1358 @@
+{
+  "blocks": [
+    {
+      "name": "Albero",
+      "placements": 6,
+      "size_m": [
+        2.4,
+        2.4,
+        5.0
+      ]
+    },
+    {
+      "name": "Divano",
+      "placements": 2,
+      "size_m": [
+        2.0,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "name": "Finestra 120x150",
+      "placements": 10,
+      "size_m": [
+        1.2,
+        0.15,
+        1.5
+      ]
+    },
+    {
+      "name": "Finestra doppia",
+      "placements": 1,
+      "size_m": [
+        2.5,
+        0.15,
+        1.5
+      ]
+    },
+    {
+      "name": "Porta 90x210",
+      "placements": 1,
+      "size_m": [
+        0.9,
+        0.12,
+        2.1
+      ]
+    }
+  ],
+  "context_version": 1,
+  "elements": [
+    {
+      "area_m2": 38.7,
+      "base_z": 0.0,
+      "block": "Albero",
+      "count": 6,
+      "horizontal_share": 0.3023,
+      "layer": "00_Sito::Alberi",
+      "material": null,
+      "name": null,
+      "size": [
+        2.4,
+        2.4,
+        5.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.6977
+    },
+    {
+      "area_m2": 67.84,
+      "base_z": 0.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0767,
+      "layer": "00_Sito::Recinzione",
+      "material": "Legno",
+      "name": null,
+      "size": [
+        26.0,
+        0.1,
+        1.2
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9233
+    },
+    {
+      "area_m2": 700.0,
+      "base_z": -0.02,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 1.0,
+      "layer": "00_Sito::Terreno",
+      "material": "Prato",
+      "name": "Terreno",
+      "size": [
+        28.0,
+        25.0,
+        0.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.0
+    },
+    {
+      "area_m2": 8.77,
+      "base_z": 0.0,
+      "block": "Divano",
+      "count": 1,
+      "horizontal_share": 0.5017,
+      "layer": "01_Piano terra::Arredi",
+      "material": "Tessuto",
+      "name": null,
+      "size": [
+        2.0,
+        0.9,
+        0.85
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.4983
+    },
+    {
+      "area_m2": 5.2692,
+      "base_z": 0.9,
+      "block": "Finestra 120x150",
+      "count": 3,
+      "horizontal_share": 0.1476,
+      "layer": "01_Piano terra::Finestre",
+      "material": null,
+      "name": null,
+      "size": [
+        1.2,
+        0.15,
+        1.5
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8524
+    },
+    {
+      "area_m2": 61.2,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0882,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro est",
+      "size": [
+        0.3,
+        9.0,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9118
+    },
+    {
+      "area_m2": 37.44,
+      "base_z": 0.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0865,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        5.4,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9135
+    },
+    {
+      "area_m2": 3.42,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2105,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        1.2,
+        0.3,
+        0.9
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7895
+    },
+    {
+      "area_m2": 2.52,
+      "base_z": 2.4,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2857,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        1.2,
+        0.3,
+        0.6
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7143
+    },
+    {
+      "area_m2": 61.2,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0882,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro ovest",
+      "size": [
+        0.3,
+        9.0,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9118
+    },
+    {
+      "area_m2": 20.61,
+      "base_z": 0.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.083,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        2.85,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.917
+    },
+    {
+      "area_m2": 11.7,
+      "base_z": 0.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0769,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.5,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9231
+    },
+    {
+      "area_m2": 3.42,
+      "base_z": 0.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.2105,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.2,
+        0.3,
+        0.9
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7895
+    },
+    {
+      "area_m2": 2.7,
+      "base_z": 2.1,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        0.9,
+        0.3,
+        0.9
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8
+    },
+    {
+      "area_m2": 2.52,
+      "base_z": 2.4,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.2857,
+      "layer": "01_Piano terra::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.2,
+        0.3,
+        0.6
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7143
+    },
+    {
+      "area_m2": 4.5,
+      "base_z": 0.0,
+      "block": "Porta 90x210",
+      "count": 1,
+      "horizontal_share": 0.048,
+      "layer": "01_Piano terra::Porte",
+      "material": null,
+      "name": null,
+      "size": [
+        0.9,
+        0.12,
+        2.1
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.952
+    },
+    {
+      "area_m2": 203.4,
+      "base_z": -0.3,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.9416,
+      "layer": "01_Piano terra::Solaio",
+      "material": "Calcestruzzo",
+      "name": "Solaio 0",
+      "size": [
+        11.4,
+        8.4,
+        0.3
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.0584
+    },
+    {
+      "area_m2": 8.77,
+      "base_z": 3.0,
+      "block": "Divano",
+      "count": 1,
+      "horizontal_share": 0.5017,
+      "layer": "02_Primo piano::Arredi",
+      "material": "Tessuto",
+      "name": null,
+      "size": [
+        2.0,
+        0.9,
+        0.85
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.4983
+    },
+    {
+      "area_m2": 5.2692,
+      "base_z": 3.9,
+      "block": "Finestra 120x150",
+      "count": 5,
+      "horizontal_share": 0.1476,
+      "layer": "02_Primo piano::Finestre",
+      "material": null,
+      "name": null,
+      "size": [
+        1.2,
+        0.15,
+        1.5
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8524
+    },
+    {
+      "area_m2": 10.5384,
+      "base_z": 3.9,
+      "block": "Finestra doppia",
+      "count": 1,
+      "horizontal_share": 0.1476,
+      "layer": "02_Primo piano::Finestre",
+      "material": null,
+      "name": null,
+      "size": [
+        2.5,
+        0.15,
+        1.5
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8524
+    },
+    {
+      "area_m2": 61.2,
+      "base_z": 3.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0882,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro est",
+      "size": [
+        0.3,
+        9.0,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9118
+    },
+    {
+      "area_m2": 37.44,
+      "base_z": 3.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0865,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        5.4,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9135
+    },
+    {
+      "area_m2": 3.42,
+      "base_z": 3.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2105,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        1.2,
+        0.3,
+        0.9
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7895
+    },
+    {
+      "area_m2": 2.52,
+      "base_z": 5.4,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2857,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro nord",
+      "size": [
+        1.2,
+        0.3,
+        0.6
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7143
+    },
+    {
+      "area_m2": 61.2,
+      "base_z": 3.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0882,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro ovest",
+      "size": [
+        0.3,
+        9.0,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9118
+    },
+    {
+      "area_m2": 19.62,
+      "base_z": 3.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0826,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        2.7,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9174
+    },
+    {
+      "area_m2": 11.7,
+      "base_z": 3.0,
+      "block": null,
+      "count": 2,
+      "horizontal_share": 0.0769,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.5,
+        0.3,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9231
+    },
+    {
+      "area_m2": 3.42,
+      "base_z": 3.0,
+      "block": null,
+      "count": 3,
+      "horizontal_share": 0.2105,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.2,
+        0.3,
+        0.9
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7895
+    },
+    {
+      "area_m2": 2.52,
+      "base_z": 5.4,
+      "block": null,
+      "count": 3,
+      "horizontal_share": 0.2857,
+      "layer": "02_Primo piano::Muri",
+      "material": "Mattone",
+      "name": "Muro sud",
+      "size": [
+        1.2,
+        0.3,
+        0.6
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7143
+    },
+    {
+      "area_m2": 203.4,
+      "base_z": 2.7,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.9416,
+      "layer": "02_Primo piano::Solaio",
+      "material": "Calcestruzzo",
+      "name": "Solaio 1",
+      "size": [
+        11.4,
+        8.4,
+        0.3
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.0584
+    },
+    {
+      "area_m2": 146.047562,
+      "base_z": 6.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0,
+      "layer": "03_Copertura::Coppi",
+      "material": "Coppi",
+      "name": "Tetto",
+      "size": [
+        12.0,
+        9.0,
+        2.5
+      ],
+      "sloped_share": 0.8459,
+      "vertical_share": 0.1541
+    },
+    {
+      "area_m2": 203.4,
+      "base_z": 5.7,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.9416,
+      "layer": "03_Copertura::Solaio sottotetto",
+      "material": "Calcestruzzo",
+      "name": "Solaio sottotetto",
+      "size": [
+        11.4,
+        8.4,
+        0.3
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.0584
+    },
+    {
+      "area_m2": 8.16,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0662,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        3.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9338
+    },
+    {
+      "area_m2": 7.711765,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.07,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        2.823529
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.93
+    },
+    {
+      "area_m2": 7.263529,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0743,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        2.647059
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9257
+    },
+    {
+      "area_m2": 6.815294,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0792,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        2.470588
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9208
+    },
+    {
+      "area_m2": 6.367059,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0848,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        2.294118
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9152
+    },
+    {
+      "area_m2": 5.918824,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0912,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        2.117647
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9088
+    },
+    {
+      "area_m2": 5.470588,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.0987,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.941176
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.9013
+    },
+    {
+      "area_m2": 5.022353,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1075,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.764706
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8925
+    },
+    {
+      "area_m2": 4.574118,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1181,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.588235
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8819
+    },
+    {
+      "area_m2": 4.125882,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1309,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.411765
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8691
+    },
+    {
+      "area_m2": 3.677647,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1468,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.235294
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8532
+    },
+    {
+      "area_m2": 3.229412,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1672,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        1.058824
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8328
+    },
+    {
+      "area_m2": 2.781176,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.1942,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        0.882353
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.8058
+    },
+    {
+      "area_m2": 2.332941,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2315,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        0.705882
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7685
+    },
+    {
+      "area_m2": 1.884706,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.2865,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        0.529412
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.7135
+    },
+    {
+      "area_m2": 1.436471,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.3759,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        0.352941
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.6241
+    },
+    {
+      "area_m2": 0.988235,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.5464,
+      "layer": "Scala",
+      "material": "Calcestruzzo",
+      "name": null,
+      "size": [
+        0.27,
+        1.0,
+        0.176471
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.4536
+    },
+    {
+      "area_m2": 216.0,
+      "base_z": 0.0,
+      "block": null,
+      "count": 1,
+      "horizontal_share": 0.3333,
+      "layer": "Studio::Volume",
+      "material": null,
+      "name": "Volume studio",
+      "size": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "sloped_share": 0.0,
+      "vertical_share": 0.6667
+    }
+  ],
+  "elements_per_object": true,
+  "layers": [
+    {
+      "area_m2": 700.0,
+      "color": "#4caf50",
+      "hidden": false,
+      "material": "Prato",
+      "objects": 1,
+      "path": "00_Sito::Terreno",
+      "size_m": [
+        28.0,
+        25.0,
+        0.0
+      ]
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#2e7d32",
+      "hidden": false,
+      "material": null,
+      "objects": 6,
+      "path": "00_Sito::Alberi",
+      "size_m": null
+    },
+    {
+      "area_m2": 135.68,
+      "color": "#8b5a2b",
+      "hidden": false,
+      "material": "Legno",
+      "objects": 2,
+      "path": "00_Sito::Recinzione",
+      "size_m": [
+        26.0,
+        23.2,
+        1.2
+      ]
+    },
+    {
+      "area_m2": 282.42,
+      "color": "#a0522d",
+      "hidden": false,
+      "material": "Mattone",
+      "objects": 15,
+      "path": "01_Piano terra::Muri",
+      "size_m": [
+        12.0,
+        9.0,
+        3.0
+      ]
+    },
+    {
+      "area_m2": 203.4,
+      "color": "#bdbdbd",
+      "hidden": false,
+      "material": "Calcestruzzo",
+      "objects": 1,
+      "path": "01_Piano terra::Solaio",
+      "size_m": [
+        11.4,
+        8.4,
+        0.3
+      ]
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#00a0ff",
+      "hidden": false,
+      "material": null,
+      "objects": 3,
+      "path": "01_Piano terra::Finestre",
+      "size_m": null
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#6d6875",
+      "hidden": false,
+      "material": null,
+      "objects": 1,
+      "path": "01_Piano terra::Arredi",
+      "size_m": null
+    },
+    {
+      "area_m2": 283.68,
+      "color": "#a0522d",
+      "hidden": false,
+      "material": "Mattone",
+      "objects": 16,
+      "path": "02_Primo piano::Muri",
+      "size_m": [
+        12.0,
+        9.0,
+        3.0
+      ]
+    },
+    {
+      "area_m2": 203.4,
+      "color": "#bdbdbd",
+      "hidden": false,
+      "material": "Calcestruzzo",
+      "objects": 1,
+      "path": "02_Primo piano::Solaio",
+      "size_m": [
+        11.4,
+        8.4,
+        0.3
+      ]
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#00a0ff",
+      "hidden": false,
+      "material": null,
+      "objects": 6,
+      "path": "02_Primo piano::Finestre",
+      "size_m": null
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#6d6875",
+      "hidden": false,
+      "material": null,
+      "objects": 1,
+      "path": "02_Primo piano::Arredi",
+      "size_m": null
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#8b5a2b",
+      "hidden": false,
+      "material": null,
+      "objects": 1,
+      "path": "01_Piano terra::Porte",
+      "size_m": null
+    },
+    {
+      "area_m2": 203.4,
+      "color": "#bdbdbd",
+      "hidden": false,
+      "material": "Calcestruzzo",
+      "objects": 1,
+      "path": "03_Copertura::Solaio sottotetto",
+      "size_m": [
+        11.4,
+        8.4,
+        0.3
+      ]
+    },
+    {
+      "area_m2": 146.047562,
+      "color": "#b5533c",
+      "hidden": false,
+      "material": "Coppi",
+      "objects": 1,
+      "path": "03_Copertura::Coppi",
+      "size_m": [
+        12.0,
+        9.0,
+        2.5
+      ]
+    },
+    {
+      "area_m2": 77.76,
+      "color": "#bdbdbd",
+      "hidden": false,
+      "material": "Calcestruzzo",
+      "objects": 17,
+      "path": "Scala",
+      "size_m": [
+        4.59,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "area_m2": 216.0,
+      "color": "#ff00ff",
+      "hidden": false,
+      "material": null,
+      "objects": 1,
+      "path": "Studio::Volume",
+      "size_m": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "area_m2": 0.0,
+      "color": "#ffff00",
+      "hidden": true,
+      "material": null,
+      "objects": 1,
+      "path": "Note nascoste",
+      "size_m": null
+    },
+    {
+      "area_m2": 306.932,
+      "color": "#000000",
+      "hidden": false,
+      "material": null,
+      "objects": 0,
+      "path": "Blocchi",
+      "size_m": [
+        23.4,
+        20.4,
+        5.4
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "area_m2": 96.03,
+      "z": 0.0006
+    },
+    {
+      "area_m2": 2.34,
+      "z": 0.4885
+    },
+    {
+      "area_m2": 3.1,
+      "z": 0.9435
+    },
+    {
+      "area_m2": 1.8144,
+      "z": 2.3625
+    },
+    {
+      "area_m2": 108.9,
+      "z": 2.9995
+    },
+    {
+      "area_m2": 1.8,
+      "z": 3.5
+    },
+    {
+      "area_m2": 3.1,
+      "z": 3.9406
+    },
+    {
+      "area_m2": 1.4616,
+      "z": 5.3862
+    },
+    {
+      "area_m2": 144.36,
+      "z": 6.0
+    }
+  ],
+  "materials": [
+    {
+      "area_m2": 700.0,
+      "color": "#4caf50",
+      "metallic": null,
+      "name": "Prato",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 687.96,
+      "color": "#bdbdbd",
+      "metallic": null,
+      "name": "Calcestruzzo",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 566.1,
+      "color": "#a0522d",
+      "metallic": null,
+      "name": "Mattone",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 213.12,
+      "color": "#2e7d32",
+      "metallic": null,
+      "name": "Fogliame",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 181.652,
+      "color": "#8b5a2b",
+      "metallic": null,
+      "name": "Legno",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 146.047562,
+      "color": "#b5533c",
+      "metallic": 0.0,
+      "name": "Coppi",
+      "opacity": 1.0,
+      "roughness": 0.8,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 30.3,
+      "color": "#a8d8ea",
+      "metallic": null,
+      "name": "Vetro",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    },
+    {
+      "area_m2": 17.54,
+      "color": "#6d6875",
+      "metallic": null,
+      "name": "Tessuto",
+      "opacity": null,
+      "roughness": null,
+      "textures": [],
+      "variants": 1
+    }
+  ],
+  "notes": [],
+  "object_names": [
+    "Muro est",
+    "Muro nord",
+    "Muro ovest",
+    "Muro sud",
+    "Nota",
+    "Solaio 0",
+    "Solaio 1",
+    "Solaio sottotetto",
+    "Terreno",
+    "Tetto",
+    "Volume studio"
+  ],
+  "plan_aspect": 1.36,
+  "size_m": [
+    34.0,
+    25.0,
+    8.8
+  ],
+  "storeys": {
+    "count": 2,
+    "levels": [
+      0.0006,
+      2.9995,
+      6.0
+    ],
+    "typical_height": 3.0005
+  },
+  "style": {
+    "glazing_area_share": 0.011,
+    "horizontal_area_share": 0.5468,
+    "orthogonality": 0.9552,
+    "planar_face_share": 0.0,
+    "repetition": {
+      "block_definitions": 5,
+      "block_placements": 20,
+      "max_placements_per_block": 10
+    },
+    "vertical_area_share": 0.4084
+  },
+  "units": "meters",
+  "user_strings": [
+    {
+      "key": "Classe",
+      "objects": 31,
+      "values": [
+        "REI 60"
+      ]
+    },
+    {
+      "key": "Fase",
+      "objects": 31,
+      "values": [
+        "Progetto"
+      ]
+    },
+    {
+      "key": "Produttore",
+      "objects": 7,
+      "values": [
+        "Serramenti Rossi"
+      ]
+    }
+  ],
+  "views": [
+    {
+      "camera": [
+        6.0,
+        -25.0,
+        1.7
+      ],
+      "lens_35mm": 35.0,
+      "name": "Vista strada",
+      "projection": "perspective",
+      "target": [
+        6.0,
+        4.5,
+        3.0
+      ]
+    },
+    {
+      "camera": [
+        -14.0,
+        20.0,
+        2.0
+      ],
+      "lens_35mm": 24.0,
+      "name": "Vista giardino",
+      "projection": "perspective",
+      "target": [
+        6.0,
+        4.5,
+        3.0
+      ]
+    },
+    {
+      "camera": [
+        6.0,
+        4.5,
+        60.0
+      ],
+      "lens_35mm": null,
+      "name": "Pianta",
+      "projection": "parallel",
+      "target": [
+        6.0,
+        4.5,
+        0.0
+      ]
+    },
+    {
+      "camera": [
+        3.0,
+        2.0,
+        1.6
+      ],
+      "lens_35mm": 18.0,
+      "name": "Interno soggiorno",
+      "projection": "perspective",
+      "target": [
+        9.0,
+        7.0,
+        1.4
+      ]
+    }
+  ]
+}

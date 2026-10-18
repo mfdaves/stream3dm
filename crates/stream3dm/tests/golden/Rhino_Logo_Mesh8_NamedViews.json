@@ -1,0 +1,416 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 5633192,
+    "archive_version": 80,
+    "application": "Rhinoceros 8",
+    "application_details": "Commercial, build 2023-10-05",
+    "unit_system": "millimeters",
+    "metres_per_unit": 0.001,
+    "absolute_tolerance_m": 1e-6
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "Default",
+        "path": "Default",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 1,
+        "mesh_area_m2": 0.00105,
+        "bbox": {
+          "min": [
+            -0.014503,
+            -0.002693,
+            -0.013086
+          ],
+          "max": [
+            0.020702,
+            0.002693,
+            0.013237
+          ]
+        }
+      }
+    ],
+    "groups": [],
+    "object_names": [],
+    "user_strings": []
+  },
+  "blocks": [],
+  "materials": [],
+  "views": [
+    {
+      "name": "Perspective 3",
+      "kind": "viewport",
+      "projection": "perspective",
+      "camera": [
+        0.067512,
+        -0.023948,
+        0.022236
+      ],
+      "direction": [
+        -0.860476,
+        0.31184,
+        -0.402909
+      ],
+      "up": [
+        -0.378801,
+        0.137279,
+        0.91524
+      ],
+      "target": [
+        -0.000538,
+        0.000714,
+        -0.009628
+      ],
+      "fov_deg": {
+        "horizontal": 38.072,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.000047724,
+        0.000047724,
+        -0.000033196,
+        0.000033196,
+        0.000138318,
+        1.397152035
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Top",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0031,
+        0.0,
+        0.110003
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "target": [
+        0.0031,
+        0.0,
+        0.000075
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.027836202,
+        0.027836202,
+        -0.019362534,
+        0.019362534,
+        1e-6,
+        0.220002673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Front",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0031,
+        -0.110003,
+        0.000075
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0031,
+        0.0,
+        0.000075
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.02801388,
+        0.02801388,
+        -0.019362534,
+        0.019362534,
+        1e-6,
+        0.220002672
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Right",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.110003,
+        0.0,
+        0.000075
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0031,
+        0.0,
+        0.000075
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.020854567,
+        0.020854567,
+        -0.01447806,
+        0.01447806,
+        1e-6,
+        0.220002673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Perspective 1",
+      "kind": "named",
+      "projection": "perspective",
+      "camera": [
+        0.040787,
+        -0.065278,
+        0.043594
+      ],
+      "direction": [
+        -0.433002,
+        0.750004,
+        -0.500003
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0031,
+        0.0,
+        0.000075
+      ],
+      "fov_deg": {
+        "horizontal": 38.072,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.000044226,
+        0.000044226,
+        -0.000030763,
+        0.000030763,
+        0.000128179,
+        1.294742262
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Perspective 2",
+      "kind": "named",
+      "projection": "perspective",
+      "camera": [
+        0.017902,
+        0.017389,
+        -0.014045
+      ],
+      "direction": [
+        -0.64115,
+        -0.656078,
+        0.398106
+      ],
+      "up": [
+        0.278246,
+        0.284724,
+        0.917339
+      ],
+      "target": [
+        0.002535,
+        0.001665,
+        -0.004504
+      ],
+      "fov_deg": {
+        "horizontal": 38.072,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.00004092,
+        0.00004092,
+        -0.000028463,
+        0.000028463,
+        0.000118598,
+        1.197958504
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Perspective 3",
+      "kind": "named",
+      "projection": "perspective",
+      "camera": [
+        -0.064178,
+        -0.042243,
+        -0.028572
+      ],
+      "direction": [
+        0.804717,
+        0.543183,
+        0.239547
+      ],
+      "up": [
+        -0.198549,
+        -0.13402,
+        0.970885
+      ],
+      "target": [
+        -0.000538,
+        0.000714,
+        -0.009628
+      ],
+      "fov_deg": {
+        "horizontal": 38.072,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.000061814,
+        0.000061814,
+        -0.000042997,
+        0.000042997,
+        0.000179155,
+        1.809649753
+      ],
+      "clipping_planes": []
+    }
+  ],
+  "render": {
+    "sun": {
+      "enabled": false,
+      "manual": false,
+      "azimuth": 0.0,
+      "altitude": 0.0,
+      "date": "2000-01-01",
+      "hours": 12.0,
+      "utc_offset": 0.0,
+      "daylight_saving_minutes": null,
+      "latitude": null,
+      "longitude": null,
+      "north": null,
+      "intensity": 1.0,
+      "skylight": true
+    },
+    "ground_plane": {
+      "enabled": true,
+      "altitude_m": 0.0,
+      "auto_altitude": true,
+      "shadow_only": true,
+      "show_underside": false
+    }
+  },
+  "inventory": {
+    "objects": 1,
+    "breps": 0,
+    "breps_with_render_mesh": 0,
+    "breps_tessellated": 0,
+    "meshes": 1,
+    "subds": 0,
+    "curves": 0,
+    "points": 0,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 89700,
+    "mesh_triangles": 29900
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        -0.014503,
+        -0.002693,
+        -0.013086
+      ],
+      "max": [
+        0.020702,
+        0.002693,
+        0.013237
+      ]
+    },
+    "size": [
+      0.035205,
+      0.005386,
+      0.026324
+    ],
+    "plan_aspect": 6.5361,
+    "height_to_plan": 0.7477,
+    "storeys": null,
+    "levels": [
+      {
+        "z": 0.0,
+        "area_m2": 4e-6
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 0.0998,
+    "horizontal_area_share": 0.0139,
+    "vertical_area_share": 0.2154,
+    "planar_face_share": null,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": null,
+        "layer": "Default",
+        "material": null,
+        "block": null,
+        "count": 1,
+        "area_m2": 0.00105,
+        "size": [
+          0.035205,
+          0.005386,
+          0.026324
+        ],
+        "base_z": -0.0131,
+        "horizontal_share": 0.0139,
+        "vertical_share": 0.2154,
+        "sloped_share": 0.7707
+      }
+    ]
+  },
+  "diagnostics": []
+}

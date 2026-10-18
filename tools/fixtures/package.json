@@ -1,0 +1,13 @@
+{
+  "name": "stream3dm-fixtures",
+  "private": true,
+  "type": "module",
+  "description": "Generates synthetic .3dm test models with known values",
+  "scripts": {
+    "house": "node generate.mjs house ../../samples/synthetic",
+    "neighbourhood": "node generate.mjs neighbourhood ../../target/large"
+  },
+  "dependencies": {
+    "rhino3dm": "8.35.0"
+  }
+}

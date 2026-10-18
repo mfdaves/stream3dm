@@ -1,0 +1,19 @@
+[workspace]
+resolver = "3"
+members = ["crates/stream3dm", "crates/stream3dm-cli", "crates/stream3dm-render", "crates/stream3dm-wasm"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+publish = false
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mfdaves/stream3dm"
+
+# The decoder is slow unoptimized; optimize dependencies in dev builds.
+[profile.dev.package."*"]
+opt-level = 2
+
+# Our core too: tessellation makes the sample tests take minutes unoptimized instead of seconds.
+[profile.dev.package.stream3dm]
+opt-level = 2

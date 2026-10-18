@@ -1,0 +1,1325 @@
+{
+ "source": "rhino3dm.js 8.35 (File3dm.objects(), ObjectType.Light): model units, spot angle in degrees",
+ "files": {
+  "opennurbs/example_files/V1/v1_Camera.3dm": [
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     144,
+     144,
+     144
+    ],
+    "location": [
+     -33.999999999999986,
+     -23.00000000000003,
+     4
+    ],
+    "direction": [
+     21.999999999999986,
+     13.000000000000028,
+     0
+    ],
+    "spot_deg": 18.487497796166263,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     112,
+     112,
+     112
+    ],
+    "location": [
+     29.000000000000004,
+     9.999999999999993,
+     8
+    ],
+    "direction": [
+     -19.000000000000004,
+     -6.999999999999992,
+     0
+    ],
+    "spot_deg": 16.720595248435245,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -22.209109233102932,
+     35.999999999999986,
+     4.194462355180763
+    ],
+    "direction": [
+     7.999498401304494,
+     -13.99999999999999,
+     -0.08958419239682801
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -9.205406347116924,
+     6.057073051417312,
+     44.56714582458807
+    ],
+    "direction": [
+     4.107291939545253,
+     -2.0586544227517662,
+     -15.456134539108787
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V1/v1_MatchSrf.3dm": [
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     245,
+     234,
+     172
+    ],
+    "location": [
+     9.55044531301742,
+     0,
+     366.11472652687974
+    ],
+    "direction": [
+     -5.566622154639611,
+     0,
+     -374.6303533600318
+    ],
+    "spot_deg": 9.039272238670254,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     121,
+     170,
+     184
+    ],
+    "location": [
+     -233.2749051085527,
+     280.1384654976239,
+     -20.64268737953867
+    ],
+    "direction": [
+     234.36862124330054,
+     -274.84056459118545,
+     10.222662922636871
+    ],
+    "spot_deg": 9.107771288063908,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V1/v1_SketchOnMesh.3dm": [
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     151,
+     188,
+     125
+    ],
+    "location": [
+     -1095.5553305348437,
+     1059.6869560692628,
+     0
+    ],
+    "direction": [
+     870.2095779273156,
+     -828.3179952246882,
+     0
+    ],
+    "spot_deg": 10.813126394474809,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     64,
+     116,
+     145
+    ],
+    "location": [
+     844.698426967299,
+     -824.6320157671148,
+     0
+    ],
+    "direction": [
+     -815.0121689188296,
+     827.3608381448726,
+     0
+    ],
+    "spot_deg": 15.19537124588985,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V1/v1_Soccer.3dm": [
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     206,
+     193,
+     146
+    ],
+    "location": [
+     77.76595696941516,
+     -56.566888334654166,
+     11.544042671194767
+    ],
+    "direction": [
+     -77.76595696941516,
+     51.55839587663897,
+     1.185250479922736
+    ],
+    "spot_deg": 15.601133430540392,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     119,
+     123,
+     142
+    ],
+    "location": [
+     -38.987067054363756,
+     130.40151914587295,
+     10.35879219127203
+    ],
+    "direction": [
+     39.05445211901992,
+     -129.9702817316999,
+     1.7778757198841038
+    ],
+    "spot_deg": 10.622622822133463,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V2/v2_Camera.3dm": [
+   {
+    "name": "Unnamed 0",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     144,
+     144,
+     144
+    ],
+    "location": [
+     -33.999999999999986,
+     -23.00000000000003,
+     4
+    ],
+    "direction": [
+     21.999999999999986,
+     13.000000000000028,
+     0
+    ],
+    "spot_deg": 18.487497796166263,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 1",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     112,
+     112,
+     112
+    ],
+    "location": [
+     29.000000000000004,
+     9.999999999999993,
+     8
+    ],
+    "direction": [
+     -19.000000000000004,
+     -6.999999999999992,
+     0
+    ],
+    "spot_deg": 16.720595248435245,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 2",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -22.209109233102932,
+     35.999999999999986,
+     4.194462355180763
+    ],
+    "direction": [
+     7.999498401304494,
+     -13.99999999999999,
+     -0.08958419239682801
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 3",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -9.205406347116924,
+     6.057073051417312,
+     44.56714582458807
+    ],
+    "direction": [
+     4.107291939545253,
+     -2.0586544227517662,
+     -15.456134539108787
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V2/v2_MatchSrf.3dm": [
+   {
+    "name": "Unnamed 4",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     245,
+     234,
+     172
+    ],
+    "location": [
+     9.55044531301742,
+     0,
+     366.11472652687974
+    ],
+    "direction": [
+     -5.566622154639611,
+     0,
+     -374.6303533600318
+    ],
+    "spot_deg": 9.039272238670254,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 5",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     121,
+     170,
+     184
+    ],
+    "location": [
+     -233.2749051085527,
+     280.1384654976239,
+     -20.64268737953867
+    ],
+    "direction": [
+     234.36862124330054,
+     -274.84056459118545,
+     10.222662922636871
+    ],
+    "spot_deg": 9.107771288063908,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V2/v2_SketchOnMesh.3dm": [
+   {
+    "name": "Unnamed 6",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     151,
+     188,
+     125
+    ],
+    "location": [
+     -1095.5553305348437,
+     1059.6869560692628,
+     0
+    ],
+    "direction": [
+     870.2095779273156,
+     -828.3179952246882,
+     0
+    ],
+    "spot_deg": 10.813126394474809,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 7",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     64,
+     116,
+     145
+    ],
+    "location": [
+     844.698426967299,
+     -824.6320157671148,
+     0
+    ],
+    "direction": [
+     -815.0121689188296,
+     827.3608381448726,
+     0
+    ],
+    "spot_deg": 15.19537124588985,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V2/v2_Soccer.3dm": [
+   {
+    "name": "Unnamed 8",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     206,
+     193,
+     146
+    ],
+    "location": [
+     77.76595696941516,
+     -56.566888334654166,
+     11.544042671194767
+    ],
+    "direction": [
+     -77.76595696941516,
+     51.55839587663897,
+     1.185250479922736
+    ],
+    "spot_deg": 15.601133430540392,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 9",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     119,
+     123,
+     142
+    ],
+    "location": [
+     -38.987067054363756,
+     130.40151914587295,
+     10.35879219127203
+    ],
+    "direction": [
+     39.05445211901992,
+     -129.9702817316999,
+     1.7778757198841038
+    ],
+    "spot_deg": 10.622622822133463,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V2/v2_my_spot_light.3dm": [
+   {
+    "name": "Blue spot light",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     0,
+     0,
+     255
+    ],
+    "location": [
+     2,
+     3,
+     10
+    ],
+    "direction": [
+     -1,
+     -1,
+     -10
+    ],
+    "spot_deg": 29.999999999999996,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V3/v3_Camera.3dm": [
+   {
+    "name": "Unnamed 0",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     144,
+     144,
+     144
+    ],
+    "location": [
+     -33.999999999999986,
+     -23.00000000000003,
+     4
+    ],
+    "direction": [
+     21.999999999999986,
+     13.000000000000028,
+     0
+    ],
+    "spot_deg": 18.487497796166263,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 1",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     112,
+     112,
+     112
+    ],
+    "location": [
+     29.000000000000004,
+     9.999999999999993,
+     8
+    ],
+    "direction": [
+     -19.000000000000004,
+     -6.999999999999992,
+     0
+    ],
+    "spot_deg": 16.720595248435245,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 2",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -22.209109233102932,
+     35.999999999999986,
+     4.194462355180763
+    ],
+    "direction": [
+     7.999498401304494,
+     -13.99999999999999,
+     -0.08958419239682801
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 3",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     72,
+     72,
+     72
+    ],
+    "location": [
+     -9.205406347116924,
+     6.057073051417312,
+     44.56714582458807
+    ],
+    "direction": [
+     4.107291939545253,
+     -2.0586544227517662,
+     -15.456134539108787
+    ],
+    "spot_deg": 17.227975230647672,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V3/v3_MatchSrf.3dm": [
+   {
+    "name": "Unnamed 4",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     245,
+     234,
+     172
+    ],
+    "location": [
+     9.55044531301742,
+     0,
+     366.11472652687974
+    ],
+    "direction": [
+     -5.566622154639611,
+     0,
+     -374.6303533600318
+    ],
+    "spot_deg": 9.039272238670254,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 5",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     121,
+     170,
+     184
+    ],
+    "location": [
+     -233.2749051085527,
+     280.1384654976239,
+     -20.64268737953867
+    ],
+    "direction": [
+     234.36862124330054,
+     -274.84056459118545,
+     10.222662922636871
+    ],
+    "spot_deg": 9.107771288063908,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V3/v3_SketchOnMesh.3dm": [
+   {
+    "name": "Unnamed 6",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     151,
+     188,
+     125
+    ],
+    "location": [
+     -1095.5553305348437,
+     1059.6869560692628,
+     0
+    ],
+    "direction": [
+     870.2095779273156,
+     -828.3179952246882,
+     0
+    ],
+    "spot_deg": 10.813126394474809,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 7",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     64,
+     116,
+     145
+    ],
+    "location": [
+     844.698426967299,
+     -824.6320157671148,
+     0
+    ],
+    "direction": [
+     -815.0121689188296,
+     827.3608381448726,
+     0
+    ],
+    "spot_deg": 15.19537124588985,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V3/v3_Soccer.3dm": [
+   {
+    "name": "Unnamed 8",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     206,
+     193,
+     146
+    ],
+    "location": [
+     77.76595696941516,
+     -56.566888334654166,
+     11.544042671194767
+    ],
+    "direction": [
+     -77.76595696941516,
+     51.55839587663897,
+     1.185250479922736
+    ],
+    "spot_deg": 15.601133430540392,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Unnamed 9",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     119,
+     123,
+     142
+    ],
+    "location": [
+     -38.987067054363756,
+     130.40151914587295,
+     10.35879219127203
+    ],
+    "direction": [
+     39.05445211901992,
+     -129.9702817316999,
+     1.7778757198841038
+    ],
+    "spot_deg": 10.622622822133463,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V3/v3_my_spot_light.3dm": [
+   {
+    "name": "Blue spot light",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     0,
+     0,
+     255
+    ],
+    "location": [
+     2,
+     3,
+     10
+    ],
+    "direction": [
+     -1,
+     -1,
+     -10
+    ],
+    "spot_deg": 29.999999999999996,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V4/v4_example_file.3dm": [
+   {
+    "name": "Light 01",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "location": [
+     20.75573042785043,
+     -3.3936363483579655,
+     47.61863619649485
+    ],
+    "direction": [
+     10.337970188002252,
+     0,
+     -32.89516339731317
+    ],
+    "spot_deg": 24.84186299153083,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Light 02",
+    "style": "WorldPoint",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "location": [
+     -4.120889870625575,
+     0,
+     12.710398914798942
+    ],
+    "direction": [
+     0,
+     0,
+     -1
+    ],
+    "spot_deg": 180,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V5/v5_my_spot_light.3dm": [
+   {
+    "name": "Blue spot light",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     0,
+     0,
+     255
+    ],
+    "location": [
+     2,
+     3,
+     10
+    ],
+    "direction": [
+     -1,
+     -1,
+     -10
+    ],
+    "spot_deg": 29.999999999999996,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V6/my_spot_light.3dm": [
+   {
+    "name": "Blue spot light",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     0,
+     0,
+     255
+    ],
+    "location": [
+     2,
+     3,
+     10
+    ],
+    "direction": [
+     -1,
+     -1,
+     -10
+    ],
+    "spot_deg": 29.999999999999996,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "opennurbs/example_files/V7/v7_my_spot_light.3dm": [
+   {
+    "name": "Blue spot light",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     0,
+     0,
+     255
+    ],
+    "location": [
+     2,
+     3,
+     10
+    ],
+    "direction": [
+     -1,
+     -1,
+     -10
+    ],
+    "spot_deg": 29.999999999999996,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "rhino3dm/tests/models/light.3dm": [
+   {
+    "name": "",
+    "style": "WorldSpot",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "location": [
+     -7.313008158389366,
+     -22.72964629710134,
+     0
+    ],
+    "direction": [
+     7.313008158389366,
+     22.72964629710134,
+     0
+    ],
+    "spot_deg": 2.3982085276349974,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "three.js/examples/models/3dm/Rhino_Logo.3dm": [
+   {
+    "name": "",
+    "style": "WorldPoint",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     255,
+     171,
+     255
+    ],
+    "location": [
+     0,
+     -25,
+     0
+    ],
+    "direction": [
+     0,
+     0,
+     -1
+    ],
+    "spot_deg": 180,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "",
+    "style": "WorldDirectional",
+    "on": true,
+    "intensity": 1,
+    "color": [
+     255,
+     0,
+     0
+    ],
+    "location": [
+     -41,
+     -66,
+     41
+    ],
+    "direction": [
+     100,
+     100,
+     -23
+    ],
+    "spot_deg": 180,
+    "length": [
+     0,
+     0,
+     0
+    ],
+    "width": [
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ }
+}

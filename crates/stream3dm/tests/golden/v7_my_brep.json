@@ -1,0 +1,129 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 15320,
+    "archive_version": 70,
+    "application": "OpenNURBS example_brep.cpp",
+    "application_details": "OpenNURBS example showing how to create and write a simple b-rep",
+    "unit_system": "millimeters",
+    "metres_per_unit": 0.001,
+    "absolute_tolerance_m": 1e-6
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "brep",
+        "path": "brep",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 1,
+        "mesh_area_m2": 0.000523,
+        "bbox": {
+          "min": [
+            0.0,
+            0.0,
+            -0.001
+          ],
+          "max": [
+            0.01,
+            0.008,
+            0.013
+          ]
+        }
+      }
+    ],
+    "groups": [],
+    "object_names": [
+      "Twisted b-rep"
+    ],
+    "user_strings": []
+  },
+  "blocks": [],
+  "materials": [],
+  "views": [],
+  "inventory": {
+    "objects": 1,
+    "breps": 1,
+    "breps_with_render_mesh": 0,
+    "breps_tessellated": 1,
+    "meshes": 0,
+    "subds": 0,
+    "curves": 0,
+    "points": 0,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 24,
+    "mesh_triangles": 12
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        0.0,
+        0.0,
+        -0.001
+      ],
+      "max": [
+        0.01,
+        0.008,
+        0.013
+      ]
+    },
+    "size": [
+      0.01,
+      0.008,
+      0.014
+    ],
+    "plan_aspect": 1.25,
+    "height_to_plan": 1.4,
+    "storeys": null,
+    "levels": [
+      {
+        "z": 0.0,
+        "area_m2": 0.00007
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 0.6401,
+    "horizontal_area_share": 0.1348,
+    "vertical_area_share": 0.6646,
+    "planar_face_share": 0.0,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": "Twisted b-rep",
+        "layer": "brep",
+        "material": null,
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000523,
+        "size": [
+          0.01,
+          0.008,
+          0.014
+        ],
+        "base_z": -0.001,
+        "horizontal_share": 0.1348,
+        "vertical_share": 0.6646,
+        "sloped_share": 0.2006
+      }
+    ]
+  },
+  "diagnostics": []
+}

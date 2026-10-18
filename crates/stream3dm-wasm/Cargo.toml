@@ -1,0 +1,20 @@
+[package]
+name = "stream3dm-wasm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Raw WebAssembly exports of stream3dm, for reading a .3dm in slices from JavaScript (js/stream3dm.js wraps them)"
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+# Adds cadmpeg, for the rare record versions our reader leaves to it (a module ten times larger).
+full = ["stream3dm/cadmpeg"]
+
+[dependencies]
+stream3dm = { path = "../stream3dm", default-features = false }
+serde_json = "1"

@@ -1,0 +1,2320 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 9677363,
+    "archive_version": 50,
+    "application": "Rhinoceros 5.0",
+    "application_details": "English Beta Lab License, build 2012-05-10",
+    "unit_system": "none",
+    "metres_per_unit": null,
+    "absolute_tolerance_m": null
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "Default",
+        "path": "Default",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 15,
+        "mesh_area_m2": 0.000436,
+        "bbox": {
+          "min": [
+            -0.00525,
+            -0.00475,
+            -0.005246
+          ],
+          "max": [
+            0.00525,
+            0.076939,
+            0.005246
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "name": "Hub",
+        "path": "Hub",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 1,
+        "mesh_area_m2": 0.000967,
+        "bbox": {
+          "min": [
+            -0.009,
+            0.01551,
+            -0.008999
+          ],
+          "max": [
+            0.009,
+            0.025,
+            0.008999
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "name": "Disk",
+        "path": "Disk",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 3,
+        "mesh_area_m2": 0.00526,
+        "bbox": {
+          "min": [
+            -0.018,
+            0.03575,
+            -0.018
+          ],
+          "max": [
+            0.018,
+            0.03875,
+            0.018
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "name": "Bearings",
+        "path": "Bearings",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 58,
+        "mesh_area_m2": 0.000365,
+        "bbox": {
+          "min": [
+            -0.004055,
+            0.006189,
+            -0.004055
+          ],
+          "max": [
+            0.004055,
+            0.053811,
+            0.004055
+          ]
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "Group01",
+        "objects": 3
+      }
+    ],
+    "object_names": [],
+    "user_strings": []
+  },
+  "blocks": [],
+  "materials": [
+    {
+      "index": 0,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.001768
+    },
+    {
+      "index": 1,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.001746
+    },
+    {
+      "index": 2,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.001746
+    },
+    {
+      "index": 3,
+      "name": "Bronze (1)",
+      "color": "#877949",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000967
+    },
+    {
+      "index": 4,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 5,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 6,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 7,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 8,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 9,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 10,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 11,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 12,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 13,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 14,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 15,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 16,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 17,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 18,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 19,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 20,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 21,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 22,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 23,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 24,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 25,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 26,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 27,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 28,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 29,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 30,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 31,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 32,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 33,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 34,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 35,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 36,
+      "name": "Bronze",
+      "color": "#534519",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000129
+    },
+    {
+      "index": 37,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 38,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 39,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 40,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 41,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 42,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 43,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 44,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 45,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 46,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 47,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 48,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 49,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 50,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 51,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 52,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 53,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 54,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 55,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 56,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 57,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 58,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 59,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 60,
+      "name": "Disc",
+      "color": "#c8c8c8",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 3e-6
+    },
+    {
+      "index": 61,
+      "name": "Bronze",
+      "color": "#534519",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000078
+    },
+    {
+      "index": 62,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000032
+    },
+    {
+      "index": 63,
+      "name": "",
+      "color": "#323131",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000013
+    },
+    {
+      "index": 64,
+      "name": "Polished",
+      "color": "#ddd2d2",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000183
+    },
+    {
+      "index": 65,
+      "name": "",
+      "color": "#aa4e20",
+      "physically_based": false,
+      "metallic": null,
+      "roughness": null,
+      "opacity": null,
+      "textures": [],
+      "layers": 0,
+      "objects": 1,
+      "mesh_area_m2": 0.000207
+    }
+  ],
+  "views": [
+    {
+      "name": "Perspective",
+      "kind": "viewport",
+      "projection": "perspective",
+      "camera": [
+        0.074482,
+        -0.013643,
+        0.074221
+      ],
+      "direction": [
+        -0.672453,
+        0.402466,
+        -0.62115
+      ],
+      "up": [
+        -0.532983,
+        0.318993,
+        0.783691
+      ],
+      "target": [
+        -0.009456,
+        0.036594,
+        -0.003314
+      ],
+      "fov_deg": {
+        "horizontal": 44.27,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.029295835,
+        0.029295835,
+        -0.017285178,
+        0.017285178,
+        0.072021576,
+        0.159952572
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Top",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        0.0345,
+        0.022676
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0345,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.091172761,
+        0.091172761,
+        -0.05335,
+        0.05335,
+        0.004535156,
+        0.040816406
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Front",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        -0.026599,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0345,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.033837313,
+        0.033837313,
+        -0.0198,
+        0.0198,
+        0.012219727,
+        0.109977539
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Right",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.022676,
+        0.0345,
+        0.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0345,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.051125939,
+        0.051125939,
+        -0.030047701,
+        0.030047701,
+        0.004535156,
+        0.040816406
+      ],
+      "clipping_planes": []
+    }
+  ],
+  "inventory": {
+    "objects": 77,
+    "breps": 66,
+    "breps_with_render_mesh": 66,
+    "breps_tessellated": 0,
+    "meshes": 0,
+    "subds": 0,
+    "curves": 11,
+    "points": 0,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 57673,
+    "mesh_triangles": 60844
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        -0.018,
+        -0.00475,
+        -0.018
+      ],
+      "max": [
+        0.018,
+        0.076939,
+        0.018
+      ]
+    },
+    "size": [
+      0.036,
+      0.081689,
+      0.036
+    ],
+    "plan_aspect": 2.2691,
+    "height_to_plan": 0.4407,
+    "storeys": null,
+    "levels": [
+      {
+        "z": 0.0,
+        "area_m2": 0.000099
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 0.693,
+    "horizontal_area_share": 0.0282,
+    "vertical_area_share": 0.6765,
+    "planar_face_share": 0.2128,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.0005,
+          0.001621,
+          0.00086
+        ],
+        "base_z": -0.0041,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1003,
+        "sloped_share": 0.8997
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Bronze",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000129,
+        "size": [
+          0.007994,
+          0.002,
+          0.007997
+        ],
+        "base_z": -0.004,
+        "horizontal_share": 0.031,
+        "vertical_share": 0.4539,
+        "sloped_share": 0.5151
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000573,
+          0.001621,
+          0.000853
+        ],
+        "base_z": -0.004,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1033,
+        "sloped_share": 0.8967
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000573,
+          0.001621,
+          0.000853
+        ],
+        "base_z": -0.004,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1033,
+        "sloped_share": 0.8967
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000641,
+          0.001621,
+          0.000834
+        ],
+        "base_z": -0.0038,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1085,
+        "sloped_share": 0.8915
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000641,
+          0.001621,
+          0.000834
+        ],
+        "base_z": -0.0038,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1085,
+        "sloped_share": 0.8915
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000704,
+          0.001621,
+          0.000801
+        ],
+        "base_z": -0.0034,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1119,
+        "sloped_share": 0.8881
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000704,
+          0.001621,
+          0.000801
+        ],
+        "base_z": -0.0034,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1119,
+        "sloped_share": 0.8881
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": -0.0029,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": -0.0029,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.0005,
+          0.001621,
+          0.00086
+        ],
+        "base_z": -0.0028,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1003,
+        "sloped_share": 0.8997
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Bronze",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000078,
+        "size": [
+          0.005496,
+          0.002,
+          0.005498
+        ],
+        "base_z": -0.0027,
+        "horizontal_share": 0.0202,
+        "vertical_share": 0.4548,
+        "sloped_share": 0.525
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000596,
+          0.001621,
+          0.000848
+        ],
+        "base_z": -0.0027,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1061,
+        "sloped_share": 0.8939
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000596,
+          0.001621,
+          0.000848
+        ],
+        "base_z": -0.0027,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1061,
+        "sloped_share": 0.8939
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000684,
+          0.001621,
+          0.000813
+        ],
+        "base_z": -0.0025,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.0836,
+        "sloped_share": 0.9164
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000684,
+          0.001621,
+          0.000813
+        ],
+        "base_z": -0.0025,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.0836,
+        "sloped_share": 0.9164
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000801,
+          0.001621,
+          0.000704
+        ],
+        "base_z": -0.0024,
+        "horizontal_share": 0.0561,
+        "vertical_share": 0.251,
+        "sloped_share": 0.6929
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000801,
+          0.001621,
+          0.000704
+        ],
+        "base_z": -0.0024,
+        "horizontal_share": 0.0561,
+        "vertical_share": 0.251,
+        "sloped_share": 0.6929
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": -0.0021,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": -0.0021,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000834,
+          0.001621,
+          0.000641
+        ],
+        "base_z": -0.0017,
+        "horizontal_share": 0.0823,
+        "vertical_share": 0.2476,
+        "sloped_share": 0.6701
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000834,
+          0.001621,
+          0.000641
+        ],
+        "base_z": -0.0017,
+        "horizontal_share": 0.0823,
+        "vertical_share": 0.2476,
+        "sloped_share": 0.6701
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000813,
+          0.001621,
+          0.000684
+        ],
+        "base_z": -0.0015,
+        "horizontal_share": 0.0836,
+        "vertical_share": 0.2226,
+        "sloped_share": 0.6938
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000813,
+          0.001621,
+          0.000684
+        ],
+        "base_z": -0.0015,
+        "horizontal_share": 0.0836,
+        "vertical_share": 0.2226,
+        "sloped_share": 0.6938
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000853,
+          0.001621,
+          0.000573
+        ],
+        "base_z": -0.001,
+        "horizontal_share": 0.1033,
+        "vertical_share": 0.2423,
+        "sloped_share": 0.6544
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000853,
+          0.001621,
+          0.000573
+        ],
+        "base_z": -0.001,
+        "horizontal_share": 0.1033,
+        "vertical_share": 0.2423,
+        "sloped_share": 0.6544
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000848,
+          0.001621,
+          0.000596
+        ],
+        "base_z": -0.0009,
+        "horizontal_share": 0.0787,
+        "vertical_share": 0.2452,
+        "sloped_share": 0.6761
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000848,
+          0.001621,
+          0.000596
+        ],
+        "base_z": -0.0009,
+        "horizontal_share": 0.0787,
+        "vertical_share": 0.2452,
+        "sloped_share": 0.6761
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.00086,
+          0.001621,
+          0.0005
+        ],
+        "base_z": -0.0003,
+        "horizontal_share": 0.1003,
+        "vertical_share": 0.2393,
+        "sloped_share": 0.6604
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.00086,
+          0.001621,
+          0.0005
+        ],
+        "base_z": -0.0003,
+        "horizontal_share": 0.1003,
+        "vertical_share": 0.2393,
+        "sloped_share": 0.6604
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.00086,
+          0.001621,
+          0.0005
+        ],
+        "base_z": -0.0003,
+        "horizontal_share": 0.1003,
+        "vertical_share": 0.2393,
+        "sloped_share": 0.6604
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.00086,
+          0.001621,
+          0.0005
+        ],
+        "base_z": -0.0003,
+        "horizontal_share": 0.1003,
+        "vertical_share": 0.2393,
+        "sloped_share": 0.6604
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000848,
+          0.001621,
+          0.000596
+        ],
+        "base_z": 0.0003,
+        "horizontal_share": 0.0787,
+        "vertical_share": 0.2452,
+        "sloped_share": 0.6761
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000848,
+          0.001621,
+          0.000596
+        ],
+        "base_z": 0.0003,
+        "horizontal_share": 0.0787,
+        "vertical_share": 0.2452,
+        "sloped_share": 0.6761
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000853,
+          0.001621,
+          0.000573
+        ],
+        "base_z": 0.0004,
+        "horizontal_share": 0.1033,
+        "vertical_share": 0.2423,
+        "sloped_share": 0.6544
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000853,
+          0.001621,
+          0.000573
+        ],
+        "base_z": 0.0004,
+        "horizontal_share": 0.1033,
+        "vertical_share": 0.2423,
+        "sloped_share": 0.6544
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000813,
+          0.001621,
+          0.000684
+        ],
+        "base_z": 0.0008,
+        "horizontal_share": 0.0836,
+        "vertical_share": 0.2226,
+        "sloped_share": 0.6938
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000813,
+          0.001621,
+          0.000684
+        ],
+        "base_z": 0.0008,
+        "horizontal_share": 0.0836,
+        "vertical_share": 0.2226,
+        "sloped_share": 0.6938
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000834,
+          0.001621,
+          0.000641
+        ],
+        "base_z": 0.0011,
+        "horizontal_share": 0.0823,
+        "vertical_share": 0.2476,
+        "sloped_share": 0.6701
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000834,
+          0.001621,
+          0.000641
+        ],
+        "base_z": 0.0011,
+        "horizontal_share": 0.0823,
+        "vertical_share": 0.2476,
+        "sloped_share": 0.6701
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": 0.0013,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": 0.0013,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000684,
+          0.001621,
+          0.000813
+        ],
+        "base_z": 0.0017,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.0836,
+        "sloped_share": 0.9164
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000684,
+          0.001621,
+          0.000813
+        ],
+        "base_z": 0.0017,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.0836,
+        "sloped_share": 0.9164
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000801,
+          0.001621,
+          0.000704
+        ],
+        "base_z": 0.0017,
+        "horizontal_share": 0.0561,
+        "vertical_share": 0.251,
+        "sloped_share": 0.6929
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000801,
+          0.001621,
+          0.000704
+        ],
+        "base_z": 0.0017,
+        "horizontal_share": 0.0561,
+        "vertical_share": 0.251,
+        "sloped_share": 0.6929
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.0005,
+          0.001621,
+          0.00086
+        ],
+        "base_z": 0.0019,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1003,
+        "sloped_share": 0.8997
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000596,
+          0.001621,
+          0.000848
+        ],
+        "base_z": 0.0019,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1061,
+        "sloped_share": 0.8939
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000596,
+          0.001621,
+          0.000848
+        ],
+        "base_z": 0.0019,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1061,
+        "sloped_share": 0.8939
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": 0.0022,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000758,
+          0.001621,
+          0.000758
+        ],
+        "base_z": 0.0022,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.2521,
+        "sloped_share": 0.7479
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000704,
+          0.001621,
+          0.000801
+        ],
+        "base_z": 0.0026,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1119,
+        "sloped_share": 0.8881
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000704,
+          0.001621,
+          0.000801
+        ],
+        "base_z": 0.0026,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1119,
+        "sloped_share": 0.8881
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000641,
+          0.001621,
+          0.000834
+        ],
+        "base_z": 0.0029,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1085,
+        "sloped_share": 0.8915
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000641,
+          0.001621,
+          0.000834
+        ],
+        "base_z": 0.0029,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1085,
+        "sloped_share": 0.8915
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000573,
+          0.001621,
+          0.000853
+        ],
+        "base_z": 0.0031,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1033,
+        "sloped_share": 0.8967
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.000573,
+          0.001621,
+          0.000853
+        ],
+        "base_z": 0.0031,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1033,
+        "sloped_share": 0.8967
+      },
+      {
+        "name": null,
+        "layer": "Bearings",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 3e-6,
+        "size": [
+          0.0005,
+          0.001621,
+          0.00086
+        ],
+        "base_z": 0.0032,
+        "horizontal_share": 0.0,
+        "vertical_share": 0.1003,
+        "sloped_share": 0.8997
+      },
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000207,
+        "size": [
+          0.0105,
+          0.000689,
+          0.010493
+        ],
+        "base_z": -0.0052,
+        "horizontal_share": 0.025,
+        "vertical_share": 0.8076,
+        "sloped_share": 0.1674
+      },
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000183,
+        "size": [
+          0.006,
+          0.0115,
+          0.005997
+        ],
+        "base_z": -0.003,
+        "horizontal_share": 0.0675,
+        "vertical_share": 0.3143,
+        "sloped_share": 0.6182
+      },
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "Polished",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000032,
+        "size": [
+          0.003897,
+          0.00075,
+          0.0045
+        ],
+        "base_z": -0.0023,
+        "horizontal_share": 0.0178,
+        "vertical_share": 0.6136,
+        "sloped_share": 0.3686
+      },
+      {
+        "name": null,
+        "layer": "Default",
+        "material": "",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000013,
+        "size": [
+          0.0035,
+          0.0002,
+          0.0035
+        ],
+        "base_z": -0.0018,
+        "horizontal_share": 0.0348,
+        "vertical_share": 0.7503,
+        "sloped_share": 0.2149
+      },
+      {
+        "name": null,
+        "layer": "Disk",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.001746,
+        "size": [
+          0.036,
+          0.001,
+          0.036
+        ],
+        "base_z": -0.018,
+        "horizontal_share": 0.0224,
+        "vertical_share": 0.7923,
+        "sloped_share": 0.1853
+      },
+      {
+        "name": null,
+        "layer": "Disk",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.001746,
+        "size": [
+          0.036,
+          0.001,
+          0.036
+        ],
+        "base_z": -0.018,
+        "horizontal_share": 0.0224,
+        "vertical_share": 0.7923,
+        "sloped_share": 0.1853
+      },
+      {
+        "name": null,
+        "layer": "Disk",
+        "material": "Disc",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.001768,
+        "size": [
+          0.035354,
+          0.002325,
+          0.035354
+        ],
+        "base_z": -0.0177,
+        "horizontal_share": 0.0278,
+        "vertical_share": 0.6579,
+        "sloped_share": 0.3143
+      },
+      {
+        "name": null,
+        "layer": "Hub",
+        "material": "Bronze (1)",
+        "block": null,
+        "count": 1,
+        "area_m2": 0.000967,
+        "size": [
+          0.018,
+          0.00949,
+          0.017998
+        ],
+        "base_z": -0.009,
+        "horizontal_share": 0.0422,
+        "vertical_share": 0.4623,
+        "sloped_share": 0.4955
+      }
+    ]
+  },
+  "diagnostics": [
+    {
+      "code": "unknown_units",
+      "severity": "warning",
+      "message": "The file has no unit system; lengths assume 1 unit = 1 mm.",
+      "count": null
+    }
+  ]
+}

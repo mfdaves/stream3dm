@@ -1,0 +1,395 @@
+{
+  "schema_version": 3,
+  "file": {
+    "size_bytes": 3112000,
+    "archive_version": 80,
+    "application": "Rhinoceros 8",
+    "application_details": "Commercial, build 2025-01-29",
+    "unit_system": "millimeters",
+    "metres_per_unit": 0.001,
+    "absolute_tolerance_m": 1e-6
+  },
+  "structure": {
+    "layers": [
+      {
+        "index": 0,
+        "name": "Default",
+        "path": "Default",
+        "color": "#000000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 1,
+        "mesh_area_m2": 0.006049,
+        "bbox": {
+          "min": [
+            -0.026303,
+            -0.026723,
+            0.0
+          ],
+          "max": [
+            0.00475,
+            0.009086,
+            0.028601
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "name": "Layer 01",
+        "path": "Layer 01",
+        "color": "#c80000",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 2,
+        "name": "Layer 02",
+        "path": "Layer 02",
+        "color": "#7d26cd",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 3,
+        "name": "Layer 03",
+        "path": "Layer 03",
+        "color": "#0000ff",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 4,
+        "name": "Layer 04",
+        "path": "Layer 04",
+        "color": "#007f00",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      },
+      {
+        "index": 5,
+        "name": "Layer 05",
+        "path": "Layer 05",
+        "color": "#ffffff",
+        "visible": true,
+        "locked": false,
+        "material": null,
+        "objects": 0,
+        "mesh_area_m2": 0.0,
+        "bbox": null
+      }
+    ],
+    "groups": [],
+    "object_names": [],
+    "user_strings": [
+      {
+        "key": "Date",
+        "objects": 1,
+        "values": [
+          "%<Date(\"M/d/yyyy\")>%"
+        ]
+      },
+      {
+        "key": "ObjectLayer",
+        "objects": 1,
+        "values": [
+          "%<ObjectLayer(\"eaa1f659-3127-4092-adfc-6cf01a04813a\")>%"
+        ]
+      },
+      {
+        "key": "firstKey",
+        "objects": 1,
+        "values": [
+          "123456"
+        ]
+      },
+      {
+        "key": "secondKey",
+        "objects": 1,
+        "values": [
+          "a value"
+        ]
+      },
+      {
+        "key": "volume",
+        "objects": 1,
+        "values": [
+          "%<Volume(\"eaa1f659-3127-4092-adfc-6cf01a04813a\",\"False\")>%"
+        ]
+      }
+    ]
+  },
+  "blocks": [],
+  "materials": [],
+  "views": [
+    {
+      "name": "Perspective",
+      "kind": "viewport",
+      "projection": "perspective",
+      "camera": [
+        0.074153,
+        -0.150869,
+        0.102484
+      ],
+      "direction": [
+        -0.433002,
+        0.750004,
+        -0.500003
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        -0.010933,
+        -0.003491,
+        0.004231
+      ],
+      "fov_deg": {
+        "horizontal": 36.842,
+        "vertical": 26.991
+      },
+      "lens_35mm": 50.0,
+      "frustum": [
+        -0.016436353,
+        0.016436353,
+        -0.011843659,
+        0.011843659,
+        0.049348579,
+        0.368452315
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Top",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        0.0,
+        0.110007
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.038569547,
+        0.038569547,
+        -0.0275,
+        0.0275,
+        5e-6,
+        0.220006673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Front",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.0,
+        -0.110007,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.038750157,
+        0.038750157,
+        -0.027279412,
+        0.027279412,
+        5e-6,
+        0.220006673
+      ],
+      "clipping_planes": []
+    },
+    {
+      "name": "Right",
+      "kind": "viewport",
+      "projection": "parallel",
+      "camera": [
+        0.110007,
+        0.0,
+        0.0
+      ],
+      "direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov_deg": null,
+      "lens_35mm": null,
+      "frustum": [
+        -0.038342567,
+        0.038342567,
+        -0.027279412,
+        0.027279412,
+        5e-6,
+        0.220006673
+      ],
+      "clipping_planes": []
+    }
+  ],
+  "render": {
+    "sun": {
+      "enabled": false,
+      "manual": false,
+      "azimuth": 168.264,
+      "altitude": 89.699,
+      "date": "2025-03-21",
+      "hours": 12.0,
+      "utc_offset": 0.0,
+      "daylight_saving_minutes": null,
+      "latitude": null,
+      "longitude": null,
+      "north": null,
+      "intensity": 1.0,
+      "skylight": true
+    },
+    "ground_plane": {
+      "enabled": true,
+      "altitude_m": 0.0,
+      "auto_altitude": true,
+      "shadow_only": true,
+      "show_underside": false
+    }
+  },
+  "inventory": {
+    "objects": 1,
+    "breps": 1,
+    "breps_with_render_mesh": 0,
+    "breps_tessellated": 1,
+    "meshes": 0,
+    "subds": 0,
+    "curves": 0,
+    "points": 0,
+    "annotations": 0,
+    "hatches": 0,
+    "block_instances": 0,
+    "block_members": 0,
+    "lights": 0,
+    "other": 0,
+    "undecoded": 0,
+    "mesh_vertices": 16,
+    "mesh_triangles": 12
+  },
+  "proportions": {
+    "bbox": {
+      "min": [
+        -0.026303,
+        -0.026723,
+        0.0
+      ],
+      "max": [
+        0.00475,
+        0.009086,
+        0.028601
+      ]
+    },
+    "size": [
+      0.031053,
+      0.035809,
+      0.028601
+    ],
+    "plan_aspect": 1.1532,
+    "height_to_plan": 0.7987,
+    "storeys": null,
+    "levels": [
+      {
+        "z": 0.0,
+        "area_m2": 0.001112
+      }
+    ]
+  },
+  "style": {
+    "orthogonality": 1.0,
+    "horizontal_area_share": 0.3677,
+    "vertical_area_share": 0.6323,
+    "planar_face_share": 1.0,
+    "glazing_area_share": 0.0,
+    "repetition": {
+      "block_definitions": 0,
+      "block_placements": 0,
+      "max_placements_per_block": 0
+    }
+  },
+  "elements": {
+    "per_object": true,
+    "items": [
+      {
+        "name": null,
+        "layer": "Default",
+        "material": null,
+        "block": null,
+        "count": 1,
+        "area_m2": 0.006049,
+        "size": [
+          0.031053,
+          0.035809,
+          0.028601
+        ],
+        "base_z": 0.0,
+        "horizontal_share": 0.3677,
+        "vertical_share": 0.6323,
+        "sloped_share": 0.0
+      }
+    ]
+  },
+  "diagnostics": []
+}

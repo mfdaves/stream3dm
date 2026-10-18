@@ -1,0 +1,127 @@
+<!doctype html>
+<!--
+  stream3dm in the browser: pick a .3dm file, read it with js/stream3dm.js on this page (the
+  file stays on this machine) and draw it with three.js.
+
+  Build the module and serve the repository's root, then open /examples/browser/:
+    cargo build -j 1 --release -p stream3dm-wasm --target wasm32-unknown-unknown
+    python3 -m http.server 8000
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stream3dm example</title>
+  <style>
+    :root { --bg: #f4f3f0; --fg: #1f2328; --muted: #6a6f76; --panel: #ffffffd9; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #17191c; --fg: #e8e6e3; --muted: #9aa0a6; --panel: #22252ad9; } }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, sans-serif; }
+    canvas { display: block; width: 100%; height: 100%; }
+    #panel { position: fixed; top: 12px; left: 12px; right: 12px; max-width: 420px; padding: 12px 14px; border-radius: 10px; background: var(--panel); backdrop-filter: blur(6px); }
+    #panel p { margin: 6px 0 0; color: var(--muted); }
+    #summary { white-space: pre-wrap; font: 12px/1.45 ui-monospace, monospace; color: var(--fg); }
+  </style>
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <canvas id="view"></canvas>
+  <div id="panel">
+    <input type="file" id="file" accept=".3dm">
+    <p id="status">Choose a .3dm file; it is read on this page and never uploaded.</p>
+    <p id="summary"></p>
+  </div>
+  <script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+    import { init } from '../../js/stream3dm.js';
+
+    // The packaged module next to stream3dm.js (npm run build), else the cargo build.
+    const packaged = new URL('../../js/stream3dm_wasm.wasm', import.meta.url);
+    const built = new URL('../../target/wasm32-unknown-unknown/release/stream3dm_wasm.wasm', import.meta.url);
+    const reader = await init((await fetch(packaged, { method: 'HEAD' })).ok ? packaged : built);
+
+    const canvas = document.getElementById('view');
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    renderer.setPixelRatio(devicePixelRatio);
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(40, 1, 0.05, 5000);
+    camera.up.set(0, 0, 1);
+    const controls = new OrbitControls(camera, canvas);
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x8a8478, 2.2));
+    const key = new THREE.DirectionalLight(0xffffff, 1.6);
+    key.position.set(1, -2, 3);
+    scene.add(key);
+    let model = new THREE.Group();
+    scene.add(model);
+
+    function resize() {
+      renderer.setSize(canvas.clientWidth, canvas.clientHeight, false);
+      camera.aspect = canvas.clientWidth / canvas.clientHeight;
+      camera.updateProjectionMatrix();
+    }
+    new ResizeObserver(resize).observe(canvas);
+    renderer.setAnimationLoop(() => {
+      controls.update();
+      renderer.render(scene, camera);
+    });
+
+    const surface = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.8, side: THREE.DoubleSide, flatShading: true });
+    const edges = new THREE.LineBasicMaterial({ color: 0x2a2d31 });
+
+    document.getElementById('file').addEventListener('change', async (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+      const status = document.getElementById('status');
+      const started = performance.now();
+      try {
+        const { report, meshes } = await reader.read(file, {
+          meshes: true,
+          onProgress: ({ pass, bytes, total }) => (status.textContent = `Reading (pass ${pass}) ${Math.round((100 * bytes) / total)} %`),
+        });
+        scene.remove(model);
+        model = new THREE.Group();
+        // Positions are metres from meshes.origin.
+        model.position.fromArray(meshes.origin);
+        for (const c of meshes.chunks) {
+          if (c.indices.length) {
+            const g = new THREE.BufferGeometry();
+            g.setAttribute('position', new THREE.BufferAttribute(c.positions, 3));
+            g.setAttribute('color', new THREE.BufferAttribute(c.colors, 3, true));
+            g.setIndex(new THREE.BufferAttribute(c.indices, 1));
+            model.add(new THREE.Mesh(g, surface));
+          }
+          if (c.lines.length) {
+            const g = new THREE.BufferGeometry();
+            g.setAttribute('position', new THREE.BufferAttribute(c.lines, 3));
+            model.add(new THREE.LineSegments(g, edges));
+          }
+        }
+        scene.add(model);
+        const box = new THREE.Box3().setFromObject(model);
+        const sphere = box.getBoundingSphere(new THREE.Sphere());
+        controls.target.copy(sphere.center);
+        camera.position.copy(sphere.center).add(new THREE.Vector3(1, -1.4, 0.9).normalize().multiplyScalar(sphere.radius * 2.6 || 10));
+        camera.near = Math.max(0.01, sphere.radius / 500);
+        camera.far = sphere.radius * 20 + 100;
+        camera.updateProjectionMatrix();
+        const triangles = meshes.chunks.reduce((n, c) => n + c.indices.length / 3, 0);
+        status.textContent = `${file.name}: read in ${((performance.now() - started) / 1000).toFixed(2)} s`;
+        const size = report.proportions?.size?.map((v) => v.toFixed(2)).join(' × ');
+        document.getElementById('summary').textContent = [
+          `Rhino archive ${report.file?.archive_version}, units ${report.file?.unit_system}`,
+          `${report.inventory.objects} objects, ${report.structure.layers.length} layers, ${report.materials.length} materials`,
+          `${triangles.toLocaleString()} triangles drawn${size ? `, ${size} m` : ''}`,
+          ...report.diagnostics.slice(0, 4).map((d) => `· ${d.message ?? d.code}`),
+        ].join('\n');
+      } catch (error) {
+        status.textContent = String(error.message ?? error);
+      }
+    });
+  </script>
+</body>
+</html>

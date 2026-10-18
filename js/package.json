@@ -1,0 +1,26 @@
+{
+  "name": "stream3dm",
+  "version": "0.1.0",
+  "description": "Reads Rhino .3dm files in the browser and Node: report, meshes, fingerprint (WebAssembly)",
+  "private": true,
+  "type": "module",
+  "main": "stream3dm.js",
+  "types": "stream3dm.d.ts",
+  "exports": {
+    ".": {
+      "types": "./stream3dm.d.ts",
+      "default": "./stream3dm.js"
+    },
+    "./stream3dm_wasm.wasm": "./stream3dm_wasm.wasm"
+  },
+  "files": ["stream3dm.js", "stream3dm.d.ts", "stream3dm_wasm.wasm", "LICENSE-MIT", "LICENSE-APACHE"],
+  "scripts": {
+    "build": "cargo build -j 1 --release -p stream3dm-wasm --target wasm32-unknown-unknown && cp \"${CARGO_TARGET_DIR:-../target}/wasm32-unknown-unknown/release/stream3dm_wasm.wasm\" .",
+    "prepack": "cp ../LICENSE-MIT ../LICENSE-APACHE .",
+    "test": "node --test test/stream3dm.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT OR Apache-2.0"
+}

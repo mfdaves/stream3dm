@@ -1,0 +1,20 @@
+[package]
+name = "stream3dm-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "The stream3dm command: inspect, fingerprint, diff, render and IFC metadata from the command line"
+
+[[bin]]
+name = "stream3dm"
+path = "src/main.rs"
+
+[dependencies]
+stream3dm = { path = "../stream3dm" }
+stream3dm-render = { path = "../stream3dm-render" }
+cadmpeg-codec-rhino = "0.6.1"
+cadmpeg-ir = "0.6.1"
+serde_json = "1"
